@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables (IMPORTANTE - contiene API keys)
+.env
+*.env
+app/services/.env
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Docker volumes (persisted data)
+docker-data/
+postgres-data/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Local data files (if any)
+data/local/
+*.csv
+*.json
+*.parquet
+
+# Hugging Face cache (opcional - puede ser útil mantenerlo)
+# .cache/
+
+# Modelo checkpoints locales (si los generas)
+checkpoints/
+models/local/
+
+# Backup files
+*.bak
+*.backup
+
+# Test files and outputs
+test_outputs/
+test_results/
+
+# Documentation builds
+docs/_build/
+site/
