@@ -2,6 +2,9 @@
 
 A comprehensive Retrieval-Augmented Generation (RAG) system featuring hybrid search capabilities, built with PostgreSQL, pgvectorscale, and Anthropic Claude. This project demonstrates advanced information retrieval techniques combining semantic understanding, keyword matching, and intelligent reranking—all while maintaining data privacy through open-source embedding models.
 
+<img width="1613" height="1043" alt="image" src="https://github.com/user-attachments/assets/a8630c15-8955-4869-bd64-6adfa707a81d" />
+
+
 ## 🎯 Project Overview
 
 This implementation showcases an advanced RAG pipeline featuring **hybrid search capabilities** that combine the robustness of PostgreSQL with cutting-edge information retrieval techniques. The system integrates three complementary search methodologies: semantic vector search, PostgreSQL full-text search, and intelligent reranking through open-source cross-encoders.
